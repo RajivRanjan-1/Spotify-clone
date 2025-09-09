@@ -130,3 +130,89 @@ a{
     background-color: black;
     color: white;
 }
+
+.sticky-nav{
+    position: sticky;
+    background-color: #121212;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+    opacity: .5;
+    color: white;
+    width: 32px;
+    height: 32px;
+    padding: 20;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    display: flex;
+}
+.sticky-nav-icons:hover{
+    opacity: 1;
+}
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card{
+    background-color: #161616;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.card:hover{
+    background-color: #232323;
+    cursor: pointer;
+}
+h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 90%;
+    height: 40%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
